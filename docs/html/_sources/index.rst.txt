@@ -1,0 +1,37 @@
+.. Bioconductor Workshop 1 documentation master file, created by
+   sphinx-quickstart on Thu Feb  8 16:04:06 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
+
+Brown CBC's Bioconductor Workshop 1 Materials
+=============================================
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   CBC Workshop index <https://compbiocore.github.io/cbc-workshops/>
+
+   notebook
+
+Purpose
+=======
+
+This site hosts the Jupyter notebook for the CBC Bioconductor Workshop 1.  The notebook will be served on the web as a static HTML page, meaning that while it looks like a live notebook, it cannot be edited.  To obtain an editable notebook file, please click the 'download notebook' link.
+
+.. raw:: html
+
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<br>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<br>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<br>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+
+|
+
+Contact
+=======
+
+For assistance, contact cbc-help@brown.edu - this is our general help line, so please specify that your issue is with this site's contents
