@@ -28,7 +28,6 @@ This site hosts the Jupyter notebook for the CBC Bioconductor Workshop 1.  The n
 	<p><a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_3.ipynb" download>Download Notebook 3</a></p>
 	<p><a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_4.ipynb" download>Download Notebook 4</a></p>
 
-|
 
 Contact
 =======
