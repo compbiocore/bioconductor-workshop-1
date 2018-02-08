@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head><meta charset="utf-8" />
-<title>bioconductor_notebook_1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
+<title>Brown2018Period1</title><script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.1.10/require.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
 
 <style type="text/css">
@@ -11792,7 +11792,7 @@ tab and select "All Output", then click on the "Clear" option that will appear.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># a quick setup to avoid extraneous messages</span>
@@ -11847,7 +11847,7 @@ tab and select "All Output", then click on the "Clear" option that will appear.<
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># functional programming example</span>
@@ -11856,6 +11856,25 @@ cube<span class="p">(</span><span class="m">4</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+64
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -11879,13 +11898,32 @@ cube<span class="p">(</span><span class="m">4</span><span class="p">)</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[3]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>cube<span class="p">(</span><span class="m">7</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+343
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -11902,7 +11940,7 @@ the ninth power of its argument, without invoking the exponential directly?</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[4]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>nin <span class="o">=</span> <span class="kr">function</span><span class="p">(</span>x<span class="p">)</span> cube<span class="p">(</span>cube<span class="p">(</span>x<span class="p">))</span>
@@ -11911,6 +11949,37 @@ the ninth power of its argument, without invoking the exponential directly?</p>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+262144
+</div>
+
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+262144
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -11986,7 +12055,7 @@ object called <code>Homo.sapiens</code>, which answers to a certain collection o
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[5]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Homo.sapiens<span class="p">)</span>
@@ -11997,16 +12066,84 @@ methods<span class="p">(</span>class<span class="o">=</span><span class="kp">cla
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre> [1] asBED                 asGFF                 cds                  
+ [4] cdsBy                 coerce&lt;-              columns              
+ [7] dbconn                dbfile                disjointExons        
+[10] distance              exons                 exonsBy              
+[13] extractUpstreamSeqs   fiveUTRsByTranscript  genes                
+[16] getTxDbIfAvailable    intronsByTranscript   isActiveSeq          
+[19] isActiveSeq&lt;-         keys                  keytypes             
+[22] mapIds                mapToTranscripts      metadata             
+[25] microRNAs             promoters             resources            
+[28] select                selectByRanges        selectRangesById     
+[31] seqinfo               show                  taxonomyId           
+[34] threeUTRsByTranscript transcripts           transcriptsBy        
+[37] tRNAs                 TxDb                  TxDb&lt;-               
+see &#39;?methods&#39; for accessing help and source code</pre>
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[6]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>genes<span class="p">(</span>Homo.sapiens<span class="p">)</span> <span class="c1"># we&#39;ll look at this data structure in great detail later</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>GRanges object with 23056 ranges and 1 metadata column:
+        seqnames                 ranges strand |       GENEID
+           &lt;Rle&gt;              &lt;IRanges&gt;  &lt;Rle&gt; | &lt;FactorList&gt;
+      1    chr19 [ 58858172,  58874214]      - |            1
+     10     chr8 [ 18248755,  18258723]      + |           10
+    100    chr20 [ 43248163,  43280376]      - |          100
+   1000    chr18 [ 25530930,  25757445]      - |         1000
+  10000     chr1 [243651535, 244006886]      - |        10000
+    ...      ...                    ...    ... .          ...
+   9991     chr9 [114979995, 115095944]      - |         9991
+   9992    chr21 [ 35736323,  35743440]      + |         9992
+   9993    chr22 [ 19023795,  19109967]      - |         9993
+   9994     chr6 [ 90539619,  90584155]      + |         9994
+   9997    chr22 [ 50961997,  50964905]      - |         9997
+  -------
+  seqinfo: 93 sequences (1 circular) from hg19 genome</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12072,7 +12209,7 @@ package.  Let's illustrate its use.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[7]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>BiocInstaller<span class="p">)</span>
@@ -12080,6 +12217,29 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Bioconductor version 3.6 (BiocInstaller 1.28.0), ?biocLite for help
+BioC_mirror: https://bioconductor.org
+Using Bioconductor 3.6 (BiocInstaller 1.28.0), R 3.4.3 (2017-11-30).
+Installing github package(s) ‘genomicsclass/GSE5859Subset’
+Skipping install of &#39;GSE5859Subset&#39; from a github remote, the SHA1 (8ada5f4f) has not changed since last install.
+  Use `force = TRUE` to force installation
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12100,7 +12260,7 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[8]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># help.start() -- may not work with notebooks but very useful in Rstudio or at command line</span>
@@ -12122,7 +12282,7 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[9]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="o">?</span>mean <span class="c1"># use ?? to find documentation on functions in all installed packages</span>
@@ -12144,13 +12304,316 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[10]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>example<span class="p">(</span>lm<span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>
+lm&gt; require(graphics)
+
+lm&gt; ## Annette Dobson (1990) &#34;An Introduction to Generalized Linear Models&#34;.
+lm&gt; ## Page 9: Plant Weight Data.
+lm&gt; ctl &lt;- c(4.17,5.58,5.18,6.11,4.50,4.61,5.17,4.53,5.33,5.14)
+
+lm&gt; trt &lt;- c(4.81,4.17,4.41,3.59,5.87,3.83,6.03,4.89,4.32,4.69)
+
+lm&gt; group &lt;- gl(2, 10, 20, labels = c(&#34;Ctl&#34;,&#34;Trt&#34;))
+
+lm&gt; weight &lt;- c(ctl, trt)
+
+lm&gt; lm.D9 &lt;- lm(weight ~ group)
+
+lm&gt; lm.D90 &lt;- lm(weight ~ group - 1) # omitting intercept
+
+lm&gt; ## No test: 
+lm&gt; ##D anova(lm.D9)
+lm&gt; ##D summary(lm.D90)
+lm&gt; ## End(No test)
+lm&gt; opar &lt;- par(mfrow = c(2,2), oma = c(0, 0, 1.1, 0))
+
+lm&gt; plot(lm.D9, las = 1)      # Residuals, Fitted, ...
+
+lm&gt; par(opar)
+
+lm&gt; ## Don&#39;t show: 
+lm&gt; ## model frame :
+lm&gt; stopifnot(identical(lm(weight ~ group, method = &#34;model.frame&#34;),
+lm+                     model.frame(lm.D9)))
+
+lm&gt; ## End(Don&#39;t show)
+lm&gt; ### less simple examples in &#34;See Also&#34; above
+lm&gt; 
+lm&gt; 
+lm&gt; 
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+IBJjJB/v2NJNpDDG3M9rWG3pyEGBSMzaBawp0tJoEIl1JJ92kSybimLM/byYlVujX1SIBB7t
+YyRtIq3uESLppHXWrtSjVFiQQyeRrI2502oNo9eRLoMSCGPpSYad7iKZ610RKZMHM4oyyqSP
+SAaRJJlapJfMJHURyToHMtVZf0H2yjCxSD9vWdvo3bVDJAEmFuk1q+2INAHTiOR2436s/Zcv
+6/EicUJkMbOI5HbjfhCpdsvIOZBZLRJWpZlEpFg3DpEattwKRXrLeLSaWUQ6/x5LR4yRGrZ0
+Nr6f/n5NXlczoUjnhy85SnYVyWxZItVE8CrmE8n+9B399u4i3Z8ihEh3zCLSZ+NXnBEU0Emk
+khAR6Y5JRHpNNy6GBpEYI90wi0ib+XlFNy6GApFefSDLYhqR1r/s6BINIr1lPFrNPCK9FxUi
+QZopRHrnHMMBIk3AFCK9HESaAETSDyJNgHqRXt6t+wWRJkC9SIBIM6BbJFqjXxBpAjSIdLlE
+gUd/INIEKBCJRfMbEGkCnhfp4jQuWqMDRJoABSK5byEAkSYAkfSDSBOgUSSWjlwQaQIUiMSl
+Ljcg0gQ8L5J/p62HUqMYRJoABSI560h4FIJIE6BBJEiDSBOgSSQmGeIg0gRoEgniPCoSZCKe
+9ZSROPlZ2rG4RsW8dkg9kUkloYhFXIPGSqsxpJ5MXnk1hYJI2kPqyeSVV1MoiKQ9pJ5MXnk1
+hYJI2kPqyeSVV1MoiKQ9pJ5MXnk1hYJI2kPqyeSVV1MoiKQ9pJ5MXnk1hYJI2kPqyeSVV1Mo
+iKQ9pJ5MXnk1hTJHgQMoB5EABEAkAAEQCUAARAIQAJEABEAkAAEQCUAARAIQAJEABEAkAAEQ
+CUAARAIQ4AGRjpuFFd877DKkT2ASaWoNyflBbWkagVQK20PRk5K6tIwvaePHWZ0EOyTTEpBo
+SO5r3SaJpbA5ED0pqUzL8yKJVH/TFpRkSO5r1SI1/lYrIDUiCbRrdbkyvKCNF2fTwV+o+ouG
+5L3WbJJUCoNOxsQpeblIbUc0QZHsEVJTSOMQaQhE9teQktpwRpezX+HbRiMyUwROSO0tkrFe
+TyCSipGJOpHUj5F6idTSIkVCasoWY//RLpKOuTJtIqmftTNenI3TYyLtSJAm09jTnkCkvQva
+eMQ4ugFriVSTK6NF8paOGkRyQmoSKbKctbpIX8QSt5RIVUE8Uc4iLZK7e3NByITk7tw0ATIC
+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"
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12166,13 +12629,30 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[11]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>help<span class="p">(</span>package<span class="o">=</span><span class="s">&quot;genefilter&quot;</span><span class="p">,</span> help_type<span class="o">=</span><span class="s">&quot;html&quot;</span><span class="p">)</span> <span class="c1"># generates embedded view of DESCRIPTION and function index</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+
+</div>
+
 </div>
 </div>
 
@@ -12188,7 +12668,7 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[12]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># vignette() # This will generate an HTML page in notebook</span>
@@ -12201,7 +12681,7 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[13]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1"># vignette(&quot;create_objects&quot;, package=&quot;pasilla&quot;) # this will start the browser to a vignette document</span>
@@ -12257,7 +12737,7 @@ biocLite<span class="p">(</span><span class="s">&quot;genomicsclass/GSE5859Subse
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[14]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>GSE5859Subset<span class="p">)</span>
@@ -12269,10 +12749,43 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<ol class=list-inline>
+	<li>'ctl'</li>
+	<li>'cube'</li>
+	<li>'geneAnnotation'</li>
+	<li>'geneExpression'</li>
+	<li>'group'</li>
+	<li>'lm.D9'</li>
+	<li>'lm.D90'</li>
+	<li>'nin'</li>
+	<li>'opar'</li>
+	<li>'sampleInfo'</li>
+	<li>'trt'</li>
+	<li>'weight'</li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[15]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">dim</span><span class="p">(</span>geneExpression<span class="p">)</span>
@@ -12282,10 +12795,33 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<ol class=list-inline>
+	<li>8793</li>
+	<li>24</li>
+</ol>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[16]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>geneExpression<span class="p">[,</span><span class="m">1</span><span class="o">:</span><span class="m">5</span><span class="p">])</span>
@@ -12295,10 +12831,40 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th></th><th scope=col>GSM136508.CEL.gz</th><th scope=col>GSM136530.CEL.gz</th><th scope=col>GSM136517.CEL.gz</th><th scope=col>GSM136576.CEL.gz</th><th scope=col>GSM136566.CEL.gz</th></tr></thead>
+<tbody>
+	<tr><th scope=row>1007_s_at</th><td>6.543954</td><td>6.401470</td><td>6.298943</td><td>6.837899</td><td>6.470689</td></tr>
+	<tr><th scope=row>1053_at</th><td>7.546708</td><td>7.263547</td><td>7.201699</td><td>7.052761</td><td>6.980207</td></tr>
+	<tr><th scope=row>117_at</th><td>5.402622</td><td>5.050546</td><td>5.024917</td><td>5.304313</td><td>5.214149</td></tr>
+	<tr><th scope=row>121_at</th><td>7.892544</td><td>7.707754</td><td>7.461886</td><td>7.558130</td><td>7.819013</td></tr>
+	<tr><th scope=row>1255_g_at</th><td>3.242779</td><td>3.222804</td><td>3.185605</td><td>3.195363</td><td>3.251915</td></tr>
+	<tr><th scope=row>1294_at</th><td>7.531754</td><td>7.090270</td><td>7.466018</td><td>7.122145</td><td>7.058973</td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[17]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>sampleInfo<span class="p">)</span>
@@ -12308,16 +12874,76 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th></th><th scope=col>ethnicity</th><th scope=col>date</th><th scope=col>filename</th><th scope=col>group</th></tr></thead>
+<tbody>
+	<tr><th scope=row>107</th><td>ASN             </td><td>2005-06-23      </td><td>GSM136508.CEL.gz</td><td>1               </td></tr>
+	<tr><th scope=row>122</th><td>ASN             </td><td>2005-06-27      </td><td>GSM136530.CEL.gz</td><td>1               </td></tr>
+	<tr><th scope=row>113</th><td>ASN             </td><td>2005-06-27      </td><td>GSM136517.CEL.gz</td><td>1               </td></tr>
+	<tr><th scope=row>163</th><td>ASN             </td><td>2005-10-28      </td><td>GSM136576.CEL.gz</td><td>1               </td></tr>
+	<tr><th scope=row>153</th><td>ASN             </td><td>2005-10-07      </td><td>GSM136566.CEL.gz</td><td>1               </td></tr>
+	<tr><th scope=row>161</th><td>ASN             </td><td>2005-10-07      </td><td>GSM136574.CEL.gz</td><td>1               </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[18]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>geneAnnotation<span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th></th><th scope=col>PROBEID</th><th scope=col>CHR</th><th scope=col>CHRLOC</th><th scope=col>SYMBOL</th></tr></thead>
+<tbody>
+	<tr><th scope=row>1</th><td>1007_s_at </td><td>chr6      </td><td>  30852327</td><td>DDR1      </td></tr>
+	<tr><th scope=row>30</th><td>1053_at   </td><td>chr7      </td><td> -73645832</td><td>RFC2      </td></tr>
+	<tr><th scope=row>31</th><td>117_at    </td><td>chr1      </td><td> 161494036</td><td>HSPA6     </td></tr>
+	<tr><th scope=row>32</th><td>121_at    </td><td>chr2      </td><td>-113973574</td><td>PAX8      </td></tr>
+	<tr><th scope=row>33</th><td>1255_g_at </td><td>chr6      </td><td>  42123144</td><td>GUCA1A    </td></tr>
+	<tr><th scope=row>34</th><td>1294_at   </td><td>chr3      </td><td> -49842638</td><td>UBA7      </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12333,13 +12959,32 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[19]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">all</span><span class="p">(</span>sampleInfo<span class="o">$</span>filename <span class="o">==</span> <span class="kp">colnames</span><span class="p">(</span>geneExpression<span class="p">))</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+TRUE
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12356,13 +13001,35 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[20]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">table</span><span class="p">(</span>sampleInfo<span class="o">$</span>group<span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>
+ 0  1 
+12 12 </pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12387,13 +13054,140 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[21]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>boxplot<span class="p">(</span><span class="kp">split</span><span class="p">(</span>geneExpression<span class="p">[</span><span class="kp">which</span><span class="p">(</span>geneAnnotation<span class="o">$</span>SYMBOL<span class="o">==</span><span class="s">&quot;PAX8&quot;</span><span class="p">),],</span> sampleInfo<span class="o">$</span>group<span class="p">),</span> ylab<span class="o">=</span><span class="s">&quot;PAX8&quot;</span><span class="p">,</span> xlab<span class="o">=</span><span class="s">&quot;group&quot;</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+O7+QNhO8C3eonV9ImwnehTvUzi+kzQTvwh1q598upOAUjdqvv3Z+Ie2l/fpr5xfSXk6//tsI
+aS+nX/9thLSX06//NkLay+nXfxsh7aX9+mvnF9Je2q+/dn4h7aX9+mvnF9Je2q+/dn4h7aX9
++mvnvzKkxxvBnnlDmJDe1X79tfNfHtJTb60U0rtOv/7bXBjSz46+f/qBh/CBdPr130ZIezn9
++m8jpL2cfv23uTSkr5+n//WLJCG9q/36a+e/9smGZ7+PU0jvar/+2vmvfR3p2e+HFtK72q+/
+dn4vyO6l/fpr5xfSXtqvv3Z+Ie2l/fpr578npF99lZT5Q6Vqb0TI6dd/m3VCyjzE6R9Ip1//
+bXxqt5fTr/82QtrL6dd/m8vf2fDRh/CB1H79tfNfG9KzR4X0rvbrr53/2jetPpuSkN7Vfv21
+81/87u8nf1cS0rvar792/qu/jeK5lIT0rvbrr53/8pB+vvL6mYcovhEh7ddfO/8NIfl+pA86
+/fpvc0tIH3sIH0inX/9tvCC7l9Ov/zZC2svp138bIe2l/fpr5xfSXtqvv3Z+Ie2l/fpr5xfS
+Xtqvv3Z+Ie2l/fpr5xfSXtqvv3Z+Ie3l9Ou/jZD2cvr130ZIezn9+m8jpL2cfv23EdJe2q+/
+dn4h7aX9+mvnF9Je2q+/dn4h7aX9+mvnF9Je2q+/dn4h7aX9+mvnF9JeTr/+2whpL6df/22E
+tJfTr/82QtrL6dd/GyHtpf36a+cX0l7ar792fiHtpf36a+cX0l7ar792fiHtpf36a+cX0l7a
+r792fiHt5fTrv42Q9nL69d9GSHs5/fpvI6S9nH79t9kupNMF78IdauffLaS79U6+htr9CSmr
+d/I11O5PSFm9k6+hdn9CyuqdfA21+xNSVu/ka6jdn5CyeidnREgQICQIEBIECImV1N55IWX1
+Tr6G2v0JKat38jXU7k9IWb2Tr6F2f0LK6p18DbX7E1JW7+RrqN2fkLJ6J2dESBAgJAgQEgQI
+iZXU3nkhZfVOvoba/Qkpq3fyNdTuT0hZvZOvoXZ/QsrqnXwNtfsTUlbv5Guo3Z+QsnonZ0RI
+ECAkCBASBAiJldTeeSFl9U6+htr9CSmrd/I11O5PSFm9k6+hdn9CyuqdfA21+xNSVu/ka6jd
+n5CyeidnREgQICQIEBIECImV1N55IWX1Tr6G2v0JKat38jXU7k9IWb2Tr6F2f0LK6p18DbX7
+E1JW7+RrqN2fkLJ6J2dESBAgJAgQEgQIiZXU3nkhZfVOvoba/Qkpq3fyNdTu7/KQvn732Ye4
+U+/ka6jd34Uh/ejn6+uZkmrXWTz5Gmr3d3FIX3/U9JmHuF/v5Guo3d/lIX3/9BMPMfd1t9uu
+nBEhQYCQIODSkH5+7vLvn8EIiTI3hfShh6Bd7Z33giwrqb3zQmIltXdeSKyk9s7fE9Kvvkjy
+agpCevV/wrN2/FLtnfepHQQICQKufR3p0w8BN7n4BdkPPwTc5Nr32j2bkpBOVXvnr/9+pGeO
+166Todo7f/V3yD6XUu06Gaq985eH9NSf2lC7ToZq7/wNIW39rebM1N75W0L62EPQrvbOe0EW
+AoQEAUKCACFBgJBYSe2dFxIrqb3zQmIltXdeSKyk9s4LiZXU3nkhsZLaOy8kCBASBAgJAoQE
+AUJiJbV3XkispPbOC4mV1N55IbGS2jsvJFZSe+eFxEpq77yQIEBIECAkCBASBAiJldTeeSGx
+kto7LyRWUnvnhcRKau+8kFhJ7Z0XEklfd7vtwi85suBDQJKQIEBIECAkCBASBAgJAoQEAUKC
+ACFBgJAgQEgQICQIEBIECAkChAQBQoIAIUGAkCBASBAgJAgQEgQICQIWDQnKvPFRng9nH5Yz
+c9L+TrrWl1nOzEn7O+laX2Y5Myft76RrfZnlzJy0v5Ou9WWWM3PS/k661pdZzsxJ+zvpWl9m
+OTMn7e+ka32Z5cyctL+TrvVlljNz0v5OutaXWc7MSfs76VpfZjkzJ+3vpGt9meXMnLS/k64V
+PkZIECAkCBASBAgJAoQEAUKCACFBgJAgQEgQICQIEBIECAkChAQBQoIAIUGAkCBASP/ovf8q
+AX86aX8HXeqL3v3ve/Bw2PoOutQX/f5RcNJHQpqQ+N3jg+CkD4W8k7Z30KW+RkhzJ23voEt9
+jZDmTtreQZf6GiHNnbS9gy71NUKaO2l7B13qa4Q0d9L2DrrU1whp7qTtHXSpL/I60thJ6zvo
+Ul/knQ1jJ63voEt9lY6mTtrfQZcKnyMkCBASBAgJAoQEAUKCACFBgJAgQEgQICQIEBIECAkC
+hAQBQoIAIUGAkCBASBAgJAgQEgQICQKEBAFCggAhQYCQIEBIECAkCBASBAgJAoQEAUKCACFB
+gJAgQEgQICQIEBIECAkChAQBQoIAIVX4+o///PD7T3785ccvfD3+yR8//vhHX27oPey9wddP
+3yF9//3fQvr+RS5n7Q3+Vsv3L/x3SN9/z9WsvcDPOH7+jvRPv/CXX+Rytl5ASOuz9QJCWp+t
+FxDS+my9wR/PeP+9lr/+4MmGm1l7g789/f2XX/h//8jT3/ex9gp/fUH2+xe+/usf6eg29t7j
+XyLR0J0sv8FTX/0I6U6W3+Cpr36EdCfL7/DEFz9CupPlQ4CQIEBIECAkCBASBAgJAoQEAUKC
+ACFBgJAgQEgQICQIEBIECAkChAQBQoIAIUGAkCBASBAgJAgQEgQICQKEBAFCggAhQYCQIEBI
+ECAkCPg/OX+inMotOWkAAAAASUVORK5CYII="
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12415,7 +13209,7 @@ data<span class="p">(</span>GSE5859Subset<span class="p">)</span> <span class="c
 information sources.  The following schematic helps to understand the objective.  For $N$ samples, a $G \times N$
 table records gene expression values.  An $N \times R$ table records the sample information.  The ExpressionSet object <code>X</code> is
 designed so that <code>X[i, j]</code> manages genes enumerated with <code>i</code> and samples enumerated with <code>j</code>.</p>
-<p><img src="esetFreeh.png" height="380" width="380"></img></p>
+<p><img src="https://raw.githubusercontent.com/vjcitn/BrownCOBRE2018/master/notebooks/esetFreeH.png" height="380" width="380"></img></p>
 <p>The ExpressionSet class is routinely used for microarray studies.  To begin, we will enhance
 the annotation of the metadata components</p>
 
@@ -12424,7 +13218,7 @@ the annotation of the metadata components</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[22]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">rownames</span><span class="p">(</span>sampleInfo<span class="p">)</span> <span class="o">=</span> sampleInfo<span class="o">$</span>filename
@@ -12447,7 +13241,7 @@ the annotation of the metadata components</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[23]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>Biobase<span class="p">)</span>  <span class="c1"># provides the class definition</span>
@@ -12458,6 +13252,40 @@ es5859  <span class="c1"># get a report</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>ExpressionSet (storageMode: lockedEnvironment)
+assayData: 8793 features, 24 samples 
+  element names: exprs 
+protocolData: none
+phenoData
+  sampleNames: GSM136508.CEL.gz GSM136530.CEL.gz ... GSM136572.CEL.gz
+    (24 total)
+  varLabels: ethnicity date filename group
+  varMetadata: labelDescription
+featureData
+  featureNames: 1007_s_at 1053_at ... AFFX-r2-P1-cre-5_at (8793 total)
+  fvarLabels: PROBEID CHR CHRLOC SYMBOL
+  fvarMetadata: labelDescription
+experimentData: use &#39;experimentData(object)&#39;
+Annotation:  </pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12474,7 +13302,7 @@ es5859  <span class="c1"># get a report</span>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[24]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>twoSamplePlot <span class="o">=</span> <span class="kr">function</span><span class="p">(</span>es<span class="p">,</span> stratvar<span class="p">,</span> symbol<span class="p">,</span> selected<span class="o">=</span><span class="m">1</span><span class="p">)</span> <span class="p">{</span>
@@ -12486,6 +13314,132 @@ twoSamplePlot<span class="p">(</span>es5859<span class="p">,</span> stratvar<spa
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA0gAAANICAMAAADKOT/pAAAABlBMVEUAAAD///+l2Z/dAAAA
+CXBIWXMAABJ0AAASdAHeZh94AAAV1klEQVR4nO3d0WJbRRJFUeX/f3ognQQDYSy5SvfW6V7r
+AZhAo1K195DIcvz4BpQ97h4AdiAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaHBBSA8I84WP8v5wbngI6CQk
+aCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAkaCAk
+aCAkaCAkaCAkOt39m2Ld9pEjJCaJvXkhMUnszQuJSWJvXkj/eOS73fbMZ4h9/kLqlTv5DLH7
+E1Kv3MkpEVKv3MkpEVKv3MkpEVKv3MkpERKTxN68kJgk9uaFxCSxNy8kJom9eSH1yp18htj9
+CalX7uQzxO5PSL1yJ6dESL1yJ6dESL1yJ6dESL1yJ6dESEwSe/NCYpLYmxcSk8TevJCYJPbm
+hdQrd/IZYvcnpF65k88Qu78rQ1q/Rc4zv1VO7DqDJ6fk8pCe+k2ncj8ccyen5MKQfnT06y/f
+8BD3y52cEiH1yp2cEiExSezNXxrS48fpT3+RFLtOimJv/toXG579Ha5j10lR7M1f+3mkZ3+n
++Nh1UhR78z4h2yt38hli9yekXrmTzxC7PyH1yp2ckntC+t2vkvb4dlu5k1MyJ6Tmh7hJ7uSU
++Kldr9zJKRESk8Te/A0hPfEroNh1UhR789e+RejZVxNi10lR7M0LiUlib/76r5Dd+6d2uZPP
+ELu/S3+N9NzXUJQe4m65k88Qu7/L37QqJHZ08at2f5YkJPZz+cvfT70BKPfDMXdySq7/PJKQ
+2JB3NjBJ7M0LiUlib15ITBJ780JiktibF1Kv3MlniN2fkHrlTj5D7P6E1Ct3ckqE1Ct3ckqE
+1Ct3ckqE1Ct3ckqExCSxNy8kJom9eSExSezNC4lJYm9eSL1yJ58hdn9C6pU7+Qyx+xNSr9zJ
+KRFSr9zJKRFSr9zJKRFSr9zJKRESk8TevJCYJPbmhcQksTcvJCaJvXkh9cqdfIbY/QmpV+7k
+M8TuT0i9cienREi9cienREi9cienREi9cienREhMEnvzQmKS2JsXEpPE3ryQmCT25oXUK3fy
+GWL3J6ReuZPPELs/IfXKnZwSIfXKnZwSIfXKnZwSIfXKnZwSITFJ7M0LiUlib15ITBJ780Ji
+ktibF1Kv3MlniN2fkHrlTj5D7P6E1Ct3ckqE1Ct3ckqE1Ct3ckqE1Ct38uVxui8v7pIjAx+C
+3zp980KixembFxItTt+8kGhx+uaFNETu5Ev6/FVCGiJ38iV9/iohDZE7+ZI+f5WQhsidfEmf
+v0pIQ+ROvqTPXyWkIXInX9LnrxISLU7fvJBocfrmhUSL0zcvpJ8nT3fb5vcgpPLJPQipRkjl
+k3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqEVD65ByHVCKl8cg9CqhFS+eQehFQjpPLJPQip
+Rkjlk3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqEVD65ByHVCKl8cg9CqhFS+eQehFQjpPLJ
+PQipRkjlk3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqEVD65ByHVCKl8cg9CqhFS+eQehFQj
+pPLJPQipRkjlk3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqEVD65ByHVCKl8cg9CqhFS+eQe
+hFQjpPLJPQipRkjlk3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqEVD65ByHVCKl8cg9CqhFS
++eQehFQjpPLJPQipRkjlk3sQUo2Qyif3IKQaIZVP7kFINUIqn9yDkGqSQnp8/i8Q0lcJqSYh
+pMdH73kIHwhCqhFS+eQehFSTENLPn9P5qd0bCakmIqQfCQnpjYRUkxHSt+8/pxPSGwmpJiSk
+7yUJ6Y2EVJMS0nrJ4Y0P4QPh3vPpckL6JqR3ElJNUEjvfQgfCPeeTyek8sk9CKkmLCSfkH0X
+IdVsENILb3z4v//mwxVu5fv+iufThYX0voe4++P4drdtfg9C+nnydLdtfg9JIb335e/TfXlz
+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
+CwkaCAkaCAkaCAkaCIlJYm9eSEwSe/NCYpLYmxcSk8TevJCYJPbmhcQksTcvJGggJGggJGgg
+JGggJCaJvXkhMUnszQuJSWJvXkhMEnvzQmKS2JsXEpPE3ryQoIGQoIGQoIGQoIGQmCT25oXE
+JLE3LyQmib15ITFJ7M0LiUlib15ITBJ780KCBkKCBkKCBkKCBkJiktibFxKTxN78pSE9Ho/v
+f/j03xC7Topib/7KkB5/eddDEC725i8M6ed/j3784R0PQbrYm780pF+nhcTvxd68kKCBn9pB
+Ay82QAMvf0MDn5BlktibFxKTxN68kJgk9ubvCel3v0p6PJ5/MYJdxd78nJCaH4JIsTfvp3Z0
+etzttid+yZGBDwGdLv6E7DefR2JL175F6I+EnvoPsJAIc/GbVldEn5YkJMJc/e7vh3d/syMh
+QYPLvx7pn3/Z+hBwk+tftXvil0hCIs3FX0bx8U9veQi4hU/IQgMhQQMhQQMhQQMhQQMhQQMh
+QQMhQQMhQQMhQQMhQQMhQQMhQYOhIUGYL3yU94ezD8upOWl/Jz3Xl1lOzUn7O+m5vsxyak7a
+30nP9WWWU3PS/k56ri+znJqT9nfSc32Z5dSctL+TnuvLLKfmpP2d9FxfZjk1J+3vpOf6Msup
+OWl/Jz3Xl1lOzUn7O+m5vsxyak7a30nP9WWWU3PS/k56rvA2QoIGQoIGQoIGQoIGQoIGQoIG
+QoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQvpPX/uuBPzlpP0d9FRf9NXv78Fy2PoO
+eqov+vOj4KSPhG5C4k/rg+CkD4V+J23voKf6GiHVnbS9g57qa4RUd9L2DnqqrxFS3UnbO+ip
+vkZIdSdt76Cn+hoh1Z20vYOe6muEVHfS9g56qi/yeaSyk9Z30FN9kXc2lJ20voOe6qt0VHXS
+/g56qvA+QoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIG
+QoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIGQoIG
+QoIGQoIGQoIGQorw+MMff/jzL77/6fsPPNbf+fnH73/r4ULvYe8JHj/8CunX//5bSL9+kMtZ
+e4K/1fLrB/4d0q//zdWsPcCPOH78F+m/fuDDD3I5Ww8gpPlsPYCQ5rP1AEKaz9YT/HzF+++1
+fPyDFxtuZu0J/vby94cf+Mff8vL3faw9wsdPyP76gce//paObmPvOT6JREN3svwET/3qR0h3
+svwET/3qR0h3svwMT/ziR0h3snxoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRo
+ICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRoICRo8D8JG6KA
+mHQ6tgAAAABJRU5ErkJggg=="
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12502,7 +13456,7 @@ an experiment.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[25]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>annotate<span class="p">)</span>
@@ -12512,6 +13466,52 @@ es5859
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Loading required package: XML
+</pre>
+</div>
+</div>
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>ExpressionSet (storageMode: lockedEnvironment)
+assayData: 8793 features, 24 samples 
+  element names: exprs 
+protocolData: none
+phenoData
+  sampleNames: GSM136508.CEL.gz GSM136530.CEL.gz ... GSM136572.CEL.gz
+    (24 total)
+  varLabels: ethnicity date filename group
+  varMetadata: labelDescription
+featureData
+  featureNames: 1007_s_at 1053_at ... AFFX-r2-P1-cre-5_at (8793 total)
+  fvarLabels: PROBEID CHR CHRLOC SYMBOL
+  fvarMetadata: labelDescription
+experimentData: use &#39;experimentData(object)&#39;
+  pubMedIds: 17206142 
+Annotation:  </pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12527,13 +13527,32 @@ es5859
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[26]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>abstract<span class="p">(</span>es5859<span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+'Variation in DNA sequence contributes to individual differences in quantitative traits, but in humans the specific sequence variants are known for very few traits. We characterized variation in gene expression in cells from individuals belonging to three major population groups. This quantitative phenotype differs significantly between European-derived and Asian-derived populations for 1,097 of 4,197 genes tested. For the phenotypes with the strongest evidence of cis determinants, most of the variation is due to allele frequency differences at cis-linked regulators. The results show that specific genetic variation among populations contributes appreciably to differences in gene expression phenotypes. Populations differ in prevalence of many complex genetic diseases, such as diabetes and cardiovascular disease. As some of these are probably influenced by the level of gene expression, our results suggest that allele frequency differences at regulatory polymorphisms also account for some population differences in prevalence of complex diseases.'
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12555,27 +13574,101 @@ cells derived from glioblastoma tumors.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[27]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>GEOquery<span class="p">)</span>
 glioMA <span class="o">=</span> getGEO<span class="p">(</span><span class="s">&quot;GSE78703&quot;</span><span class="p">)[[</span><span class="m">1</span><span class="p">]]</span>
+
+<span class="c1"># Local mirror of file in case of connection problems</span>
+<span class="c1">#glioMA &lt;- getGEO(filename = &quot;/home/ubuntu/glioma/GSE78703_series_matrix.txt.gz&quot;)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stderr output_text">
+<pre>Found 1 file(s)
+GSE78703_series_matrix.txt.gz
+Parsed with column specification:
+cols(
+  ID_REF = col_character(),
+  GSM2072905 = col_double(),
+  GSM2072906 = col_double(),
+  GSM2072907 = col_double(),
+  GSM2072908 = col_double(),
+  GSM2072909 = col_double(),
+  GSM2072910 = col_double(),
+  GSM2072911 = col_double(),
+  GSM2072912 = col_double(),
+  GSM2072913 = col_double(),
+  GSM2072914 = col_double(),
+  GSM2072915 = col_double(),
+  GSM2072916 = col_double()
+)
+File stored at: 
+/tmp/Rtmpd2HSNg/GPL15207.soft
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[28]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>glioMA
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>ExpressionSet (storageMode: lockedEnvironment)
+assayData: 49395 features, 12 samples 
+  element names: exprs 
+protocolData: none
+phenoData
+  sampleNames: GSM2072905 GSM2072906 ... GSM2072916 (12 total)
+  varLabels: title geo_accession ... treated with:ch1 (35 total)
+  varMetadata: labelDescription
+featureData
+  featureNames: 11715100_at 11715101_s_at ... AFFX-TrpnX-M_at (49395
+    total)
+  fvarLabels: ID GeneChip Array ... SPOT_ID (24 total)
+  fvarMetadata: Column Description labelDescription
+experimentData: use &#39;experimentData(object)&#39;
+Annotation: GPL15207 </pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12591,7 +13684,7 @@ glioMA <span class="o">=</span> getGEO<span class="p">(</span><span class="s">&q
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[29]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>fData<span class="p">(</span>glioMA<span class="p">))</span>
@@ -12601,10 +13694,40 @@ glioMA <span class="o">=</span> getGEO<span class="p">(</span><span class="s">&q
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th></th><th scope=col>ID</th><th scope=col>GeneChip Array</th><th scope=col>Species Scientific Name</th><th scope=col>Annotation Date</th><th scope=col>Sequence Type</th><th scope=col>Sequence Source</th><th scope=col>Transcript ID(Array Design)</th><th scope=col>Target Description</th><th scope=col>GB_ACC</th><th scope=col>GI</th><th scope=col>⋯</th><th scope=col>Gene Symbol</th><th scope=col>Chromosomal Location</th><th scope=col>Unigene Cluster Type</th><th scope=col>Ensembl</th><th scope=col>Entrez Gene</th><th scope=col>SwissProt</th><th scope=col>OMIM</th><th scope=col>RefSeq Protein ID</th><th scope=col>RefSeq Transcript ID</th><th scope=col>SPOT_ID</th></tr></thead>
+<tbody>
+	<tr><th scope=row>11715100_at</th><td>11715100_at                                                                                     </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g21264570                                                                                       </td><td>g21264570 /TID=g21264570 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g21264570 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>21264570                                                                                        </td><td>⋯                                                                                               </td><td>HIST1H3G                                                                                        </td><td>chr6p21.3                                                                                       </td><td>full length                                                                                     </td><td>ENSG00000248541                                                                                 </td><td>8355                                                                                            </td><td>P68431                                                                                          </td><td>602815                                                                                          </td><td>NP_003525                                                                                       </td><td>NM_003534                                                                                       </td><td>                                                                                                </td></tr>
+	<tr><th scope=row>11715101_s_at</th><td>11715101_s_at                                                                                   </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g21264570                                                                                       </td><td>g21264570 /TID=g21264570 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g21264570 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>21264570                                                                                        </td><td>⋯                                                                                               </td><td>HIST1H3G                                                                                        </td><td>chr6p21.3                                                                                       </td><td>full length                                                                                     </td><td>ENSG00000248541                                                                                 </td><td>8355                                                                                            </td><td>P68431                                                                                          </td><td>602815                                                                                          </td><td>NP_003525                                                                                       </td><td>NM_003534                                                                                       </td><td>                                                                                                </td></tr>
+	<tr><th scope=row>11715102_x_at</th><td>11715102_x_at                                                                                   </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g21264570                                                                                       </td><td>g21264570 /TID=g21264570 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g21264570 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>21264570                                                                                        </td><td>⋯                                                                                               </td><td>HIST1H3G                                                                                        </td><td>chr6p21.3                                                                                       </td><td>full length                                                                                     </td><td>ENSG00000248541                                                                                 </td><td>8355                                                                                            </td><td>P68431                                                                                          </td><td>602815                                                                                          </td><td>NP_003525                                                                                       </td><td>NM_003534                                                                                       </td><td>                                                                                                </td></tr>
+	<tr><th scope=row>11715103_x_at</th><td>11715103_x_at                                                                                   </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g22748780                                                                                       </td><td>g22748780 /TID=g22748780 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g22748780 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>22748780                                                                                        </td><td>⋯                                                                                               </td><td>TNFAIP8L1                                                                                       </td><td>chr19p13.3                                                                                      </td><td>full length                                                                                     </td><td>ENSG00000185361                                                                                 </td><td>126282                                                                                          </td><td>Q8WVP5                                                                                          </td><td>---                                                                                             </td><td>NP_001161414 /// NP_689575                                                                      </td><td>NM_001167942 /// NM_152362                                                                      </td><td>                                                                                                </td></tr>
+	<tr><th scope=row>11715104_s_at</th><td>11715104_s_at                                                                                   </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g30039713                                                                                       </td><td>g30039713 /TID=g30039713 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g30039713 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>30039713                                                                                        </td><td>⋯                                                                                               </td><td>OTOP2                                                                                           </td><td>chr17q25.1                                                                                      </td><td>full length                                                                                     </td><td>ENSG00000183034                                                                                 </td><td>92736                                                                                           </td><td>Q7RTS6                                                                                          </td><td>607827                                                                                          </td><td>NP_835454                                                                                       </td><td>NM_178160                                                                                       </td><td>                                                                                                </td></tr>
+	<tr><th scope=row>11715105_at</th><td>11715105_at                                                                                     </td><td>Human Genome PrimeView Array                                                                    </td><td>Homo sapiens                                                                                    </td><td>40780                                                                                           </td><td>Consensus sequence                                                                              </td><td>Affymetrix Proprietary Database                                                                 </td><td>g45580703                                                                                       </td><td>g45580703 /TID=g45580703 /CNT=1 /FEA=FLmRNA /TIER=FL /STK=0 /DEF=g45580703 /REP_ORG=Homo sapiens</td><td>                                                                                                </td><td>45580703                                                                                        </td><td>⋯                                                                                               </td><td>C17orf78                                                                                        </td><td>chr17q12                                                                                        </td><td>full length                                                                                     </td><td>ENSG00000167230                                                                                 </td><td>284099                                                                                          </td><td>Q8N4C9                                                                                          </td><td>---                                                                                             </td><td>NP_775896                                                                                       </td><td>NM_173625                                                                                       </td><td>                                                                                                </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[30]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">head</span><span class="p">(</span>pData<span class="p">(</span>glioMA<span class="p">))</span>
@@ -12614,16 +13737,68 @@ glioMA <span class="o">=</span> getGEO<span class="p">(</span><span class="s">&q
 </div>
 </div>
 
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+<div class="output_html rendered_html output_subarea ">
+<table>
+<thead><tr><th></th><th scope=col>title</th><th scope=col>geo_accession</th><th scope=col>status</th><th scope=col>submission_date</th><th scope=col>last_update_date</th><th scope=col>type</th><th scope=col>channel_count</th><th scope=col>source_name_ch1</th><th scope=col>organism_ch1</th><th scope=col>characteristics_ch1</th><th scope=col>⋯</th><th scope=col>contact_institute</th><th scope=col>contact_address</th><th scope=col>contact_city</th><th scope=col>contact_state</th><th scope=col>contact_zip/postal_code</th><th scope=col>contact_country</th><th scope=col>supplementary_file</th><th scope=col>data_row_count</th><th scope=col>cell type:ch1</th><th scope=col>treated with:ch1</th></tr></thead>
+<tbody>
+	<tr><th scope=row>GSM2072905</th><td>NHA DMSO 1                                                                                                               </td><td>GSM2072905                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>Normal human astrocytes_DMSO control                                                                                     </td><td>Homo sapiens                                                                                                             </td><td>cell type: Normal human astrocytes                                                                                       </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072905/suppl/GSM2072905_14692.Mischel.NHA1.sh_PrimeView_.CEL.gz    </td><td>49395                                                                                                                    </td><td> Normal human astrocytes                                                                                                 </td><td> DMSO control                                                                                                            </td></tr>
+	<tr><th scope=row>GSM2072906</th><td>NHA DMSO 2                                                                                                               </td><td>GSM2072906                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>Normal human astrocytes_DMSO control                                                                                     </td><td>Homo sapiens                                                                                                             </td><td>cell type: Normal human astrocytes                                                                                       </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072906/suppl/GSM2072906_14693.Mischel.NHA2.sh_PrimeView_.CEL.gz    </td><td>49395                                                                                                                    </td><td> Normal human astrocytes                                                                                                 </td><td> DMSO control                                                                                                            </td></tr>
+	<tr><th scope=row>GSM2072907</th><td>NHA DMSO 3                                                                                                               </td><td>GSM2072907                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>Normal human astrocytes_DMSO control                                                                                     </td><td>Homo sapiens                                                                                                             </td><td>cell type: Normal human astrocytes                                                                                       </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072907/suppl/GSM2072907_14694.Mischel.NHA3.sh_PrimeView_.CEL.gz    </td><td>49395                                                                                                                    </td><td> Normal human astrocytes                                                                                                 </td><td> DMSO control                                                                                                            </td></tr>
+	<tr><th scope=row>GSM2072908</th><td>U87vIII DMSO 1                                                                                                           </td><td>GSM2072908                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>U87EGFRvIII glioblastoma cells_DMSO control                                                                              </td><td>Homo sapiens                                                                                                             </td><td>cell type: U87EGFRvIII glioblastoma cells                                                                                </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072908/suppl/GSM2072908_14695.Mischel.U87vIII1.sh_PrimeView_.CEL.gz</td><td>49395                                                                                                                    </td><td> U87EGFRvIII glioblastoma cells                                                                                          </td><td> DMSO control                                                                                                            </td></tr>
+	<tr><th scope=row>GSM2072909</th><td>U87vIII DMSO 2                                                                                                           </td><td>GSM2072909                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>U87EGFRvIII glioblastoma cells_DMSO control                                                                              </td><td>Homo sapiens                                                                                                             </td><td>cell type: U87EGFRvIII glioblastoma cells                                                                                </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072909/suppl/GSM2072909_14696.Mischel.U87vIII2.sh_PrimeView_.CEL.gz</td><td>49395                                                                                                                    </td><td> U87EGFRvIII glioblastoma cells                                                                                          </td><td> DMSO control                                                                                                            </td></tr>
+	<tr><th scope=row>GSM2072910</th><td>U87vIII DMSO 3                                                                                                           </td><td>GSM2072910                                                                                                               </td><td>Public on Sep 08 2017                                                                                                    </td><td>Feb 26 2016                                                                                                              </td><td>Sep 08 2017                                                                                                              </td><td>RNA                                                                                                                      </td><td>1                                                                                                                        </td><td>U87EGFRvIII glioblastoma cells_DMSO control                                                                              </td><td>Homo sapiens                                                                                                             </td><td>cell type: U87EGFRvIII glioblastoma cells                                                                                </td><td>⋯                                                                                                                        </td><td>David Geffen School of Medicine at UCLA                                                                                  </td><td>9500 Gilman Drive                                                                                                        </td><td>La Jolla                                                                                                                 </td><td>CA                                                                                                                       </td><td>92093-0753                                                                                                               </td><td>USA                                                                                                                      </td><td>ftp://ftp.ncbi.nlm.nih.gov/geo/samples/GSM2072nnn/GSM2072910/suppl/GSM2072910_14697.Mischel.U87vIII3.sh_PrimeView_.CEL.gz</td><td>49395                                                                                                                    </td><td> U87EGFRvIII glioblastoma cells                                                                                          </td><td> DMSO control                                                                                                            </td></tr>
+</tbody>
+</table>
+
+</div>
+
+</div>
+
+</div>
+</div>
+
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[31]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kp">table</span><span class="p">(</span>glioMA<span class="o">$</span><span class="sb">`treated with:ch1`</span><span class="p">)</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>
+           DMSO control  LXR-623 5 uM for 24 hr 
+                      6                       6 </pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12640,7 +13815,7 @@ the two ExpressionSets.  We can update our new one fairly easily:</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[32]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span>fData<span class="p">(</span>glioMA<span class="p">)</span><span class="o">$</span>SYMBOL <span class="o">=</span> fData<span class="p">(</span>glioMA<span class="p">)</span><span class="o">$</span><span class="s">&quot;Gene Symbol&quot;</span> <span class="c1"># our function assumes existence of SYMBOL in fData</span>
@@ -12648,6 +13823,123 @@ twoSamplePlot<span class="p">(</span>glioMA<span class="p">,</span> stratvar<spa
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_png output_subarea ">
+<img src="data:image/png;base64,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
+QoIAIUGAkCBASBAgJAgQEgQICQKEBAFCggAhQYCQIEBIECAkCBASBAgJAoQEAUKCACFBgJAg
+QEgQICQIEBIECAkChAQBQoIAIUGAkCBASBAgpMWWW2u2cnYRUla/t5xdhJTV7y1nFyFl9XvL
+2UVIWf3ecnYRUla/t5xdhAQBQoIAIUGAkCBASFn93nJ2EVJWv7ecXUYLqfVT5ZoL7gVeMFxI
+wVvRo+rrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/mYO
+D2nTo4ZCelf19TdzYEj/+tn2+LuQ3lV9/c0cHNLlp6bPbMIdqfr6mzk8pNvFT2zCHan6+psR
+0liqr78ZIY2l+vqbOTSk7/MMf59tENK7qq+/mUYhfWgTfh5JSI0M94BsdcG9wAuENJjgXuAF
+QhpMcC/wgjYhre3vzN2h+h2p+vqbOU9ImU1UvyNVX38zwx3aBW9Fj6qvvxkhjaX6+ps5MqSv
+A7ot3wIJ6V3V19/M4SFtOpkgpHdVX38zx/880u3iBzbhjlR9/c0IaSzV19+MkMZSff3NHPuk
+1e9r//lNkpDeVX39zRx7smHrMxeE9K7q62/m2MeRtj4DSEjvqr7+ZjwgO5bq629GSGOpvv5m
+hDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0
+lurrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq
+629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utv
+Rkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZI
+Y6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq629GSGOp
+vv5mhDSW6utvRkhjqb7+ZoQ0lurrb0ZIY6m+/maENJbq629GSGOpvv5mhDSW6utvRkhjqb7+
+ZoQ0lurrb0ZIY6m+/maENJbq629muJCqC+4FXjBaSK31e8vZRUhZ/d5ydhFSVr+3nF2ElNXv
+LWcXIWX1e8vZRUhZ/d5ydhESBAgJAoQEAUKCACFl9XvL2UVIWf3ecnYRUla/t5xdhJTV7y1n
+FyFl9XvL2UVIiy231mzl7CIkCBASBBwb0tbDFyHRmSND2v6dgJDozIEh3fv5syQh0ZlDQ1q7
+GN0ENCIkCHBoBwFONkCA098Q4AFZCBASBAgJAtqEtPZtkudA07HzhBTeBBzJoR0ECAkCjn1A
+9uvl398CCYnOHB6SZzYwoqOftPrzVekzm4BGhAQBQoKAw3+M4nK79Pu7QlfeCOKdihZ5vPsh
+Tm/clR2j0vz2/xjFwNMaeGmHqDS/Smt9meHsU2l+ldb6MsPZp9L8Kq31ZYazT6X5VVrrywxn
+n0rzq7TWlxnOPpXmV2mtLzOcfSrNr9JaX2Y4+1SaX6W1vsxw9qk0v0prfZnh7FNpfpXW+jLD
+2afS/CqtFT5GSBAgJAgQEgQICQKEBAFCggAhQYCQIEBIECAkCBASBAgJAoQEAUKCACFBQIWQ
+5r+kfPo7lm+vmr8y8XuY+/hVzpNbebv434X073VfGfrXxZc3cNa5nvRmRc1/3f/DPp3fZ16/
+C62/61l3+NyfIV3m7z2d0v3SZfoOq6NbD+nXMc/eOL3Ob+tp56Q3K2qyz6+zz4KX7/vM/Y23
+t75Q0iAh3b88X5cju73DdyazT0vTdH4J6bJ68Zcbtvi4G67T1ElvVtTsc+1KSNP3mr/vax9+
+w2vPZtHJ5OXqO1x/vl5dHy49vPdiOy+HNHmHi5BOYb4Xlscny0+6D5emhy/TA8TpZ+evfy/e
+oQOzW7n2VxhXD6/u//49pGlwTw4KlzNbHks+vPo2+Mf3buo8t+Rzfg9pdpT/5LB8tsvn31jN
+Q5q+w+cXtt/D/XZ6fHddfjpZXPVxaIsju20hzWa2KHv+NfB+re/XnWjI57kln7MM6eET3fQr
+zpNrPb5Y+/fyvU7vWRyXy/0OO3nftSO0hy/dy8OwJ0OfvX02xMUmHkK6ve5MIz7TbfmUP0O6
+zkNYXGu545fHNI9HRPNdf2Z/hjR/42Uln4dyll+q/gjp6cwePjc9fswTOdWN+ZCHkGb/v71p
+8XWkYEiXlUO76+0L9nSJiy9VyxxnF54P/deQLvPtXVc/5nmc6sZ8yKaQHj+blgvpcSGPA3py
+DLb+QfeEdD/Ynn9tFFI7853w9eJr5dP9sfjU95DPdWWfDxXS7SzKdXUMs7vw4936938uhz55
++/rMnh5kCqmdyT653vbe7fLtEGJ2zPJw8mntxcO/H19xco9fcRa3/uG+vfo15fLXP5dDn37w
+1Zk9+yInpIbmp6AeXs4/5a2errqfn73M7g33+8f8QOR6tt38zGS1s7v/WkjX5Rgu09dNP9zy
+o68M/Tr998rMVr8OzT/GuSZ8qhvzIfM21nKahbPIaPaaJzneT0Ut3uHsXgrpel/b9PPSQ2uL
+K/wV0urMhAQVCQkChAQBQoIAIUGAkCBASBAgJAgQEgQICQKEBAFCggAhQYCQIEBIECAkCBAS
+BAgJAoQEAUKCACFBgJAgQEgQICQIEBIECAkChAQBQoIAIUGAkCBASBAgJAgQEgQICQKE1J0n
+f/Lx4S9Kbr4mAUbbzp/36/V3+C2k3/8O9PwNskoyzHayId3ftiWkx784zS6G2Y6QBmKYrVy+
+7stf//v65/T1iwv369xzmB/M/XvL/UNOk7p/oMnHcmgXZZitzEOaVnN/Mfvvz6UNId2vOrna
+8vpCSjLMdu7h3O7x00uzA7VpNE9DWvmQ1/m7TN8gpCTDbGfZyfSgbS2k24Ha9AMsG1r7YLMN
+CukjDLOd2b1+8a3RNKT5gZqQTskw21m71z8c6j10MH/FfxkJ6QQMs50nIS1e/hLS9Sek+TsL
+qQHDbGd+aHd9erJh+fVmEtL9FMLzkK6rH1tIWYbZzvRRoekp6u+3/Pzn4duny/RDzL9QTT7k
+tJzF2fD7dUkxzIamD6/eAlk8AjR90yy971csjvjWQrpOHpC9CukzDBMChAQBQoIAIUGAkCBA
+SBAgJAgQEgQICQKEBAFCggAhQYCQIEBIECAkCBASBAgJAoQEAUKCACFBgJAgQEgQICQIEBIE
+CAkChAQBQoIAIUGAkCBASBAgJAgQEgT8D/gnng5XaIzlAAAAAElFTkSuQmCC"
+>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12664,7 +13956,7 @@ and glioblastoma-derived cells.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[33]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="kn">library</span><span class="p">(</span>knitr<span class="p">)</span>
@@ -12672,6 +13964,31 @@ and glioblastoma-derived cells.</p>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+
+
+<div class="output_text output_subarea ">
+<pre>
+
+|                                          |  DMSO control|  LXR-623 5 uM for 24 hr|
+|:-----------------------------------------|-------------:|-----------------------:|
+|cell type: Normal human astrocytes        |             3|                       3|
+|cell type: U87EGFRvIII glioblastoma cells |             3|                       3|</pre>
+</div>
+
+</div>
+
 </div>
 </div>
 
@@ -12687,7 +14004,7 @@ and glioblastoma-derived cells.</p>
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[34]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-r"><pre><span></span><span class="c1">#twoSamplePlot(glioMA[, ...], stratvar=&quot;treated with:ch1&quot;, symbol=&quot;ABCA1&quot;)</span>
