@@ -22,12 +22,8 @@ This site hosts the Jupyter notebook for the CBC Bioconductor Workshop 1.  The n
 .. raw:: html
 
 
-	<button data-toggle="collapse" data-target="#note1">Expand Notebook 1</button>
-	<div id="demo" class="collapse">
-	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook 1</a>
-	</div>
 
-	
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook 1</a>	
 	<br>
 	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_2.ipynb" download>Download Notebook 2</a>
 	<br>
