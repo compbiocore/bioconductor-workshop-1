@@ -12,8 +12,6 @@ Brown CBC's Bioconductor Workshop 1 Materials
 
    CBC Workshop index <https://compbiocore.github.io/cbc-workshops/>
 
-   Bioconductor Workshop 1 index <https://compbiocore.github.io/bioconductor-workshop-1/>
-
    notebook
 
 Purpose
