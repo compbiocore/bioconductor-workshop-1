@@ -1,6 +1,7 @@
 Bioconductor Workshop 1 Jupyter Notebooks
 =========================================
 
+These four notebooks were created by Vince Carey.
 
 .. raw:: html
 

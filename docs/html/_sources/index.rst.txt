@@ -17,17 +17,17 @@ Brown CBC's Bioconductor Workshop 1 Materials
 Purpose
 =======
 
-This site hosts the Jupyter notebook for the CBC Bioconductor Workshop 1.  The notebook will be served on the web as a static HTML page, meaning that while it looks like a live notebook, it cannot be edited.  To obtain an editable notebook file, please click the 'download notebook' link.
+This site hosts the Jupyter notebook for the CBC Bioconductor Workshop 1.  The notebook will be served on the web as a static HTML page, meaning that while it looks like a live notebook, it cannot be edited.  To obtain an editable notebook file, please click the respective 'download notebook' link.  These four notebooks were created by Vince Carey.
 
 .. raw:: html
 
-	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook 1</a>
 	<br>
-	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_2.ipynb" download>Download Notebook 2</a>
 	<br>
-	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_3.ipynb" download>Download Notebook 3</a>
 	<br>
-	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_1.ipynb" download>Download Notebook</a>
+	<a href="https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/bioconductor_notebook_4.ipynb" download>Download Notebook 4</a>
 
 |
 
