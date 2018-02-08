@@ -7,13 +7,8 @@ These four notebooks were created by Vince Carey.
 
 
 
-	<button data-toggle="collapse" data-target="#note1">Expand Notebook 1</button>
-	<div id="note1" class="collapse">
-    <iframe src="_static/bioconductor_notebook_1.html" height="750px" width="800px"></iframe> Notebook 1</a>
-	</div>
-
-
-	
+	<p>Jupyter notebook 1</p>
+    <iframe src="_static/bioconductor_notebook_1.html" height="750px" width="800px"></iframe>
 
     <p>Jupyter notebook 2</p>
     <iframe src="_static/bioconductor_notebook_2.html" height="750px" width="800px"></iframe>
