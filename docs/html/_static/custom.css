@@ -1,1 +1,40 @@
 /* This file intentionally left blank. */
+@import url("basic.css");
+
+.redtext {
+  color: red;
+}
+
+.bluetext {
+  color: blue;
+}
+
+div.body {
+	font-family: 'Open Sans', sans-serif;
+    min-width: 450px;
+    max-width: 800px;
+}
+
+div.body h1,
+div.body h2,
+div.body h3,
+div.body h4,
+div.body h5,
+div.body h6 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+}
+
+div.sphinxsidebar a {
+    font-family: 'Open Sans', sans-serif;
+    color: #ed1b24;
+    }
+
+div.sphinxsidebar a:hover {
+	color: #ff5e4e;
+}
+
+div.sphinxsidebar h3, div.sphinxsidebar h4, div.sphinxsidebar p,
+div.sphinxsidebar h3 a {
+        font-family: 'Open Sans', sans-serif;
+    }
