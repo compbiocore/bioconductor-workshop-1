@@ -24,4 +24,4 @@ markdown_extensions:
 
 nav:
   - Home: 'index.md'
-  - Notebooks: 'notebok.md'
+  - Notebooks: 'notebook.md'
