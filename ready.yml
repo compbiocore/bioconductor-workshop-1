@@ -2,5 +2,5 @@ repo:             bioconductor-workshop-1
 site_name:        Bioconductor Workshop 1
 site_author:      Andrew Leith
 site_description: Bioconductor Workshop 1
-site_url:         https://compbiocore.github.io/
+docs_url:         https://compbiocore.github.io/bioconductor-workshop-1
 type:             workshop    # required. choose one of [software, tutorial, workshop, documentation]
