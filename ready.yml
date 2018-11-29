@@ -1,6 +1,8 @@
 repo:             bioconductor-workshop-1
-site_name:        Bioconductor Workshop 1
-site_author:      Andrew Leith
-site_description: Bioconductor Workshop 1
+site_name:        "R/Bioconductor Workshop for Genomic Data Analysis"
+authors:      
+  - name: Andrew Leith
+    github_user: andrew-leith
+site_description: "This workshop is designed to introduce attendees to Bioconductor and a variety of its use cases; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop."
 docs_url:         https://compbiocore.github.io/bioconductor-workshop-1
 type:             workshop    # required. choose one of [software, tutorial, workshop, documentation]
