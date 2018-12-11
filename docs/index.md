@@ -4,10 +4,14 @@
 [![nbviewer](https://img.shields.io/badge/jupyter_notebooks-nbviewer-purple.svg?style=flat-square)](http://nbviewer.jupyter.org/github/compbiocore/bioconductor-workshop-1/tree/master/docs/src/notebooks)
 [![License](https://img.shields.io/aur/license/yaourt.svg)](https://raw.githubusercontent.com/compbiocore/bioconductor-workshop-1/master/LICENSE)
 
+## Goal
 
-### Workshop Topic Overview
+This workshop, 'R/Bioconductor Workshop for Genomic Data Analysis', is designed to introduce attendees to Bioconductor and a variety of its use cases; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop.  Users will apply their knowledge of basic R operations to data structures that are commonly encountered in the field of computational biology like sequence data.  They will come to understand how to use R/Bioconductor to interact with common file types used in bioinformatics, receive an introduction to ontology-based analysis for deriving practical insights from the data, and then visualize the end result.
 
-This workshop, 'R/Bioconductor Workshop for Genomic Data Analysis', is designed to introduce attendees to Bioconductor and a variety of its use cases; it is an intermediate-level lecture that presupposes some knowledge of R like that found in our 'Fundamentals of R' workshop.  The topics presented herein include the following:
+
+## Workshop Topic Overview
+
+ The topics presented herein include the following:
 
 * Intro to R and Bioconductor Basic Concepts
    * Brief review of R syntax
@@ -39,3 +43,9 @@ Vince Carey
 ### Contact
 
 For assistance, contact cbc-help@brown.edu - this is our general help line, so please specify that your issue is with this site's contents
+
+### Original Time and Location
+
+> Date: 2/7/2018
+
+> Location: Campus Center
