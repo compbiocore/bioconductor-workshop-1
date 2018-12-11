@@ -14,23 +14,23 @@ This workshop, 'R/Bioconductor Workshop for Genomic Data Analysis', is designed 
  The topics presented herein include the following:
 
 * Intro to R and Bioconductor Basic Concepts
-   * Brief review of R syntax
-   * Introduction to the Bioconductor repository
-   * Overview of motivations, data structures, and data management for genome-scale experiments
+    * Brief review of R syntax
+    * Introduction to the Bioconductor repository
+    * Overview of motivations, data structures, and data management for genome-scale experiments
 
 * Working with General Genomic Features Using Genomic Ranges
-   * Introduction to Bioconductor 'ranges' package series
-   * Range-oriented solutions for current experimental paradigms including RNA-seq and 450k methylation data
-   * Parsing of BAM or BED formats and VCF file handling
+    * Introduction to Bioconductor 'ranges' package series
+    * Range-oriented solutions for current experimental paradigms including RNA-seq and 450k methylation data
+    * Parsing of BAM or BED formats and VCF file handling
 
 * Genomic Annotation with Bioconductor
-   * General overview of Bioconductor annotation
-   * Introduction to Ontology concepts and tools
+    * General overview of Bioconductor annotation
+    * Introduction to Ontology concepts and tools
 
 * Visualization of Genome-Scale Data
-   * Overview of visualization tasks
-   * Strategies for optimal visualization
-   * Annotation-oriented visualizations
+    * Overview of visualization tasks
+    * Strategies for optimal visualization
+    * Annotation-oriented visualizations
 
 ### **[Notebook](http://nbviewer.jupyter.org/github/compbiocore/bioconductor-workshop-1/tree/master/docs/src/notebooks)**
 
