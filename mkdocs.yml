@@ -3,6 +3,7 @@ site_author:      Andrew Leith
 repo_url:         https://github.com/compbiocore/bioconductor-workshop-1
 site_description: Bioconductor Worksho 1
 site_url: https://compbiocore.github.io/ #this is the main site!
+google_analytics: ['UA-115983496-2', 'compbiocore.github.io'] 
 
 theme:
   name: material
